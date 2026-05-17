@@ -1,0 +1,525 @@
+{
+  "version": "1.0.0",
+  "phrases": [
+    {
+      "id": "med-01",
+      "category": "medical",
+      "sourceText": "Are you injured?",
+      "translations": {
+        "es": "¿Estás herido?",
+        "fr": "Êtes-vous blessé ?",
+        "ar": "هل أنت مصاب؟",
+        "zh": "你受伤了吗？",
+        "hi": "क्या आप घायल हैं?",
+        "tr": "Yaralı mısınız?",
+        "ja": "怪我をしていますか？",
+        "pt": "Você está ferido?",
+        "ru": "Вы ранены?",
+        "de": "Sind Sie verletzt?",
+        "ko": "다치셨나요?",
+        "bn": "আপনি কি আহত?",
+        "ur": "کیا آپ زخمی ہیں؟",
+        "sw": "Je, umeumia?",
+        "id": "Apakah Anda terluka?",
+        "vi": "Bạn có bị thương không?",
+        "th": "คุณบาดเจ็บไหม?",
+        "fa": "آیا آسیب دیده‌اید؟",
+        "pl": "Czy jesteś ranny?",
+        "uk": "Ви поранені?"
+      }
+    },
+    {
+      "id": "med-02",
+      "category": "medical",
+      "sourceText": "Where does it hurt?",
+      "translations": {
+        "es": "¿Dónde le duele?",
+        "fr": "Où avez-vous mal ?",
+        "ar": "أين يؤلمك؟",
+        "zh": "哪里疼？",
+        "hi": "कहाँ दर्द हो रहा है?",
+        "tr": "Nereniz ağrıyor?",
+        "ja": "どこが痛いですか？",
+        "pt": "Onde dói?",
+        "ru": "Где болит?",
+        "de": "Wo tut es weh?"
+      }
+    },
+    {
+      "id": "med-03",
+      "category": "medical",
+      "sourceText": "Can you breathe?",
+      "translations": {
+        "es": "¿Puede respirar?",
+        "fr": "Pouvez-vous respirer ?",
+        "ar": "هل تستطيع التنفس؟",
+        "zh": "你能呼吸吗？",
+        "hi": "क्या आप सांस ले सकते हैं?",
+        "tr": "Nefes alabilir misiniz?",
+        "ja": "息ができますか？",
+        "pt": "Você consegue respirar?",
+        "ru": "Вы можете дышать?",
+        "de": "Können Sie atmen?"
+      }
+    },
+    {
+      "id": "med-04",
+      "category": "medical",
+      "sourceText": "Do not move.",
+      "translations": {
+        "es": "No se mueva.",
+        "fr": "Ne bougez pas.",
+        "ar": "لا تتحرك.",
+        "zh": "不要动。",
+        "hi": "हिलिए मत।",
+        "tr": "Hareket etmeyin.",
+        "ja": "動かないでください。",
+        "pt": "Não se mova.",
+        "ru": "Не двигайтесь.",
+        "de": "Bewegen Sie sich nicht."
+      }
+    },
+    {
+      "id": "med-05",
+      "category": "medical",
+      "sourceText": "Medical help is on the way.",
+      "translations": {
+        "es": "La ayuda médica está en camino.",
+        "fr": "L'aide médicale est en route.",
+        "ar": "المساعدة الطبية في الطريق.",
+        "zh": "医疗救助正在赶来。",
+        "hi": "चिकित्सा सहायता आ रही है।",
+        "tr": "Tıbbi yardım yolda.",
+        "ja": "医療支援が向かっています。",
+        "pt": "A ajuda médica está a caminho.",
+        "ru": "Медицинская помощь уже в пути.",
+        "de": "Medizinische Hilfe ist unterwegs."
+      }
+    },
+    {
+      "id": "med-06",
+      "category": "medical",
+      "sourceText": "Are you allergic to any medication?",
+      "translations": {
+        "es": "¿Es alérgico a algún medicamento?",
+        "fr": "Êtes-vous allergique à un médicament ?",
+        "ar": "هل لديك حساسية من أي دواء؟",
+        "zh": "你对什么药物过敏吗？",
+        "hi": "क्या आपको किसी दवा से एलर्जी है?",
+        "tr": "Herhangi bir ilaca alerjiniz var mı?",
+        "ja": "薬にアレルギーはありますか？",
+        "pt": "Você é alérgico a algum medicamento?",
+        "ru": "У вас есть аллергия на лекарства?",
+        "de": "Sind Sie allergisch gegen Medikamente?"
+      }
+    },
+    {
+      "id": "med-07",
+      "category": "medical",
+      "sourceText": "How many people are injured?",
+      "translations": {
+        "es": "¿Cuántas personas están heridas?",
+        "fr": "Combien de personnes sont blessées ?",
+        "ar": "كم عدد المصابين؟",
+        "zh": "有多少人受伤了？",
+        "hi": "कितने लोग घायल हैं?",
+        "tr": "Kaç kişi yaralı?",
+        "ja": "何人が怪我をしていますか？",
+        "pt": "Quantas pessoas estão feridas?",
+        "ru": "Сколько человек ранено?",
+        "de": "Wie viele Personen sind verletzt?"
+      }
+    },
+    {
+      "id": "safety-01",
+      "category": "safety",
+      "sourceText": "Help is coming.",
+      "translations": {
+        "es": "La ayuda viene en camino.",
+        "fr": "L'aide arrive.",
+        "ar": "المساعدة قادمة.",
+        "zh": "救援正在赶来。",
+        "hi": "मदद आ रही है।",
+        "tr": "Yardım geliyor.",
+        "ja": "助けが来ます。",
+        "pt": "A ajuda está vindo.",
+        "ru": "Помощь идёт.",
+        "de": "Hilfe kommt."
+      }
+    },
+    {
+      "id": "safety-02",
+      "category": "safety",
+      "sourceText": "Stay calm.",
+      "translations": {
+        "es": "Mantenga la calma.",
+        "fr": "Restez calme.",
+        "ar": "ابقَ هادئاً.",
+        "zh": "请保持冷静。",
+        "hi": "शांत रहें।",
+        "tr": "Sakin olun.",
+        "ja": "落ち着いてください。",
+        "pt": "Fique calmo.",
+        "ru": "Сохраняйте спокойствие.",
+        "de": "Bleiben Sie ruhig."
+      }
+    },
+    {
+      "id": "safety-03",
+      "category": "safety",
+      "sourceText": "This area is dangerous. Please move.",
+      "translations": {
+        "es": "Esta zona es peligrosa. Por favor, muévase.",
+        "fr": "Cette zone est dangereuse. Veuillez vous déplacer.",
+        "ar": "هذه المنطقة خطرة. يرجى التحرك.",
+        "zh": "这个区域很危险。请转移。",
+        "hi": "यह क्षेत्र खतरनाक है। कृपया हटें।",
+        "tr": "Bu alan tehlikeli. Lütfen uzaklaşın.",
+        "ja": "この場所は危険です。移動してください。",
+        "pt": "Esta área é perigosa. Por favor, mova-se.",
+        "ru": "Эта зона опасна. Пожалуйста, переместитесь.",
+        "de": "Dieser Bereich ist gefährlich. Bitte bewegen Sie sich."
+      }
+    },
+    {
+      "id": "safety-04",
+      "category": "safety",
+      "sourceText": "Follow me to safety.",
+      "translations": {
+        "es": "Sígame a un lugar seguro.",
+        "fr": "Suivez-moi vers un endroit sûr.",
+        "ar": "اتبعني إلى مكان آمن.",
+        "zh": "跟我到安全的地方。",
+        "hi": "सुरक्षित जगह के लिए मेरे पीछे आइए।",
+        "tr": "Güvenli bir yere kadar beni takip edin.",
+        "ja": "安全な場所まで私についてきてください。",
+        "pt": "Siga-me para um local seguro.",
+        "ru": "Следуйте за мной в безопасное место.",
+        "de": "Folgen Sie mir in Sicherheit."
+      }
+    },
+    {
+      "id": "safety-05",
+      "category": "safety",
+      "sourceText": "Do not go back inside.",
+      "translations": {
+        "es": "No vuelva a entrar.",
+        "fr": "Ne retournez pas à l'intérieur.",
+        "ar": "لا تعد إلى الداخل.",
+        "zh": "不要回到里面去。",
+        "hi": "अंदर वापस मत जाइए।",
+        "tr": "İçeri geri dönmeyin.",
+        "ja": "中に戻らないでください。",
+        "pt": "Não volte para dentro.",
+        "ru": "Не возвращайтесь внутрь.",
+        "de": "Gehen Sie nicht zurück hinein."
+      }
+    },
+    {
+      "id": "safety-06",
+      "category": "safety",
+      "sourceText": "You are safe now.",
+      "translations": {
+        "es": "Ahora está a salvo.",
+        "fr": "Vous êtes en sécurité maintenant.",
+        "ar": "أنت بأمان الآن.",
+        "zh": "你现在安全了。",
+        "hi": "अब आप सुरक्षित हैं।",
+        "tr": "Artık güvendesiniz.",
+        "ja": "もう安全です。",
+        "pt": "Você está seguro agora.",
+        "ru": "Вы в безопасности.",
+        "de": "Sie sind jetzt in Sicherheit."
+      }
+    },
+    {
+      "id": "logistics-01",
+      "category": "logistics",
+      "sourceText": "How many people are with you?",
+      "translations": {
+        "es": "¿Cuántas personas están con usted?",
+        "fr": "Combien de personnes sont avec vous ?",
+        "ar": "كم شخصاً معك؟",
+        "zh": "有多少人和你在一起？",
+        "hi": "आपके साथ कितने लोग हैं?",
+        "tr": "Yanınızda kaç kişi var?",
+        "ja": "何人一緒にいますか？",
+        "pt": "Quantas pessoas estão com você?",
+        "ru": "Сколько человек с вами?",
+        "de": "Wie viele Personen sind bei Ihnen?"
+      }
+    },
+    {
+      "id": "logistics-02",
+      "category": "logistics",
+      "sourceText": "Is anyone trapped?",
+      "translations": {
+        "es": "¿Hay alguien atrapado?",
+        "fr": "Quelqu'un est-il coincé ?",
+        "ar": "هل هناك أحد محاصر؟",
+        "zh": "有人被困吗？",
+        "hi": "क्या कोई फंसा हुआ है?",
+        "tr": "Mahsur kalan var mı?",
+        "ja": "閉じ込められている人はいますか？",
+        "pt": "Alguém está preso?",
+        "ru": "Кто-нибудь в ловушке?",
+        "de": "Ist jemand eingeschlossen?"
+      }
+    },
+    {
+      "id": "logistics-03",
+      "category": "logistics",
+      "sourceText": "Do you need water?",
+      "translations": {
+        "es": "¿Necesita agua?",
+        "fr": "Avez-vous besoin d'eau ?",
+        "ar": "هل تحتاج ماء؟",
+        "zh": "你需要水吗？",
+        "hi": "क्या आपको पानी चाहिए?",
+        "tr": "Suya ihtiyacınız var mı?",
+        "ja": "水が必要ですか？",
+        "pt": "Você precisa de água?",
+        "ru": "Вам нужна вода?",
+        "de": "Brauchen Sie Wasser?"
+      }
+    },
+    {
+      "id": "logistics-04",
+      "category": "logistics",
+      "sourceText": "Do you need food?",
+      "translations": {
+        "es": "¿Necesita comida?",
+        "fr": "Avez-vous besoin de nourriture ?",
+        "ar": "هل تحتاج طعام؟",
+        "zh": "你需要食物吗？",
+        "hi": "क्या आपको खाना चाहिए?",
+        "tr": "Yiyeceğe ihtiyacınız var mı?",
+        "ja": "食べ物が必要ですか？",
+        "pt": "Você precisa de comida?",
+        "ru": "Вам нужна еда?",
+        "de": "Brauchen Sie Essen?"
+      }
+    },
+    {
+      "id": "logistics-05",
+      "category": "logistics",
+      "sourceText": "Do you need shelter?",
+      "translations": {
+        "es": "¿Necesita refugio?",
+        "fr": "Avez-vous besoin d'un abri ?",
+        "ar": "هل تحتاج مأوى؟",
+        "zh": "你需要避难所吗？",
+        "hi": "क्या आपको आश्रय चाहिए?",
+        "tr": "Barınağa ihtiyacınız var mı?",
+        "ja": "避難所が必要ですか？",
+        "pt": "Você precisa de abrigo?",
+        "ru": "Вам нужно укрытие?",
+        "de": "Brauchen Sie Unterkunft?"
+      }
+    },
+    {
+      "id": "logistics-06",
+      "category": "logistics",
+      "sourceText": "The shelter is this way.",
+      "translations": {
+        "es": "El refugio está por aquí.",
+        "fr": "L'abri est par ici.",
+        "ar": "المأوى في هذا الاتجاه.",
+        "zh": "避难所在这边。",
+        "hi": "आश्रय इस तरफ है।",
+        "tr": "Barınak bu tarafta.",
+        "ja": "避難所はこちらです。",
+        "pt": "O abrigo é por aqui.",
+        "ru": "Укрытие в этом направлении.",
+        "de": "Die Unterkunft ist in diese Richtung."
+      }
+    },
+    {
+      "id": "logistics-07",
+      "category": "logistics",
+      "sourceText": "We will bring supplies.",
+      "translations": {
+        "es": "Traeremos suministros.",
+        "fr": "Nous apporterons des fournitures.",
+        "ar": "سنحضر الإمدادات.",
+        "zh": "我们会带来物资。",
+        "hi": "हम आपूर्ति लाएंगे।",
+        "tr": "Malzeme getireceğiz.",
+        "ja": "物資を持ってきます。",
+        "pt": "Traremos suprimentos.",
+        "ru": "Мы принесём припасы.",
+        "de": "Wir bringen Vorräte."
+      }
+    },
+    {
+      "id": "id-01",
+      "category": "identification",
+      "sourceText": "What is your name?",
+      "translations": {
+        "es": "¿Cómo se llama?",
+        "fr": "Comment vous appelez-vous ?",
+        "ar": "ما اسمك؟",
+        "zh": "你叫什么名字？",
+        "hi": "आपका नाम क्या है?",
+        "tr": "Adınız nedir?",
+        "ja": "お名前は何ですか？",
+        "pt": "Qual é o seu nome?",
+        "ru": "Как вас зовут?",
+        "de": "Wie heißen Sie?"
+      }
+    },
+    {
+      "id": "id-02",
+      "category": "identification",
+      "sourceText": "Do you have family nearby?",
+      "translations": {
+        "es": "¿Tiene familia cerca?",
+        "fr": "Avez-vous de la famille à proximité ?",
+        "ar": "هل لديك عائلة قريبة؟",
+        "zh": "你附近有家人吗？",
+        "hi": "क्या आपके परिवार के लोग पास में हैं?",
+        "tr": "Yakınlarınız buralarda mı?",
+        "ja": "近くに家族はいますか？",
+        "pt": "Você tem família por perto?",
+        "ru": "Ваша семья рядом?",
+        "de": "Haben Sie Familie in der Nähe?"
+      }
+    },
+    {
+      "id": "id-03",
+      "category": "identification",
+      "sourceText": "Are there children with you?",
+      "translations": {
+        "es": "¿Hay niños con usted?",
+        "fr": "Y a-t-il des enfants avec vous ?",
+        "ar": "هل يوجد أطفال معك؟",
+        "zh": "有孩子和你在一起吗？",
+        "hi": "क्या आपके साथ बच्चे हैं?",
+        "tr": "Yanınızda çocuk var mı?",
+        "ja": "お子さんは一緒ですか？",
+        "pt": "Há crianças com você?",
+        "ru": "С вами есть дети?",
+        "de": "Sind Kinder bei Ihnen?"
+      }
+    },
+    {
+      "id": "id-04",
+      "category": "identification",
+      "sourceText": "Are there elderly people with you?",
+      "translations": {
+        "es": "¿Hay personas mayores con usted?",
+        "fr": "Y a-t-il des personnes âgées avec vous ?",
+        "ar": "هل يوجد مسنون معك؟",
+        "zh": "有老人和你在一起吗？",
+        "hi": "क्या आपके साथ बुजुर्ग हैं?",
+        "tr": "Yanınızda yaşlı var mı?",
+        "ja": "高齢者は一緒ですか？",
+        "pt": "Há idosos com você?",
+        "ru": "С вами есть пожилые люди?",
+        "de": "Sind ältere Menschen bei Ihnen?"
+      }
+    },
+    {
+      "id": "id-05",
+      "category": "identification",
+      "sourceText": "We are looking for your family.",
+      "translations": {
+        "es": "Estamos buscando a su familia.",
+        "fr": "Nous recherchons votre famille.",
+        "ar": "نحن نبحث عن عائلتك.",
+        "zh": "我们正在寻找你的家人。",
+        "hi": "हम आपके परिवार को खोज रहे हैं।",
+        "tr": "Ailenizi arıyoruz.",
+        "ja": "ご家族を探しています。",
+        "pt": "Estamos procurando sua família.",
+        "ru": "Мы ищем вашу семью.",
+        "de": "Wir suchen nach Ihrer Familie."
+      }
+    },
+    {
+      "id": "med-08",
+      "category": "medical",
+      "sourceText": "Can you walk?",
+      "translations": {
+        "es": "¿Puede caminar?",
+        "fr": "Pouvez-vous marcher ?",
+        "ar": "هل تستطيع المشي؟",
+        "zh": "你能走路吗？",
+        "hi": "क्या आप चल सकते हैं?",
+        "tr": "Yürüyebilir misiniz?",
+        "ja": "歩けますか？",
+        "pt": "Você consegue andar?",
+        "ru": "Вы можете ходить?",
+        "de": "Können Sie gehen?"
+      }
+    },
+    {
+      "id": "safety-07",
+      "category": "safety",
+      "sourceText": "There may be aftershocks. Stay outside.",
+      "translations": {
+        "es": "Puede haber réplicas. Quédese afuera.",
+        "fr": "Il peut y avoir des répliques. Restez dehors.",
+        "ar": "قد تحدث هزات ارتدادية. ابقَ في الخارج.",
+        "zh": "可能会有余震。请待在外面。",
+        "hi": "आफ्टरशॉक हो सकते हैं। बाहर रहें।",
+        "tr": "Artçı sarsıntılar olabilir. Dışarıda kalın.",
+        "ja": "余震の可能性があります。外にいてください。",
+        "pt": "Pode haver réplicas. Fique do lado de fora.",
+        "ru": "Возможны повторные толчки. Оставайтесь снаружи.",
+        "de": "Es kann Nachbeben geben. Bleiben Sie draußen."
+      }
+    },
+    {
+      "id": "logistics-08",
+      "category": "logistics",
+      "sourceText": "Can you show me on the map where you came from?",
+      "translations": {
+        "es": "¿Puede mostrarme en el mapa de dónde viene?",
+        "fr": "Pouvez-vous me montrer sur la carte d'où vous venez ?",
+        "ar": "هل يمكنك أن تريني على الخريطة من أين أتيت؟",
+        "zh": "你能在地图上指出你从哪里来的吗？",
+        "hi": "क्या आप मुझे नक्शे पर दिखा सकते हैं कि आप कहाँ से आए हैं?",
+        "tr": "Haritada nereden geldiğinizi gösterebilir misiniz?",
+        "ja": "地図でどこから来たか教えてもらえますか？",
+        "pt": "Pode me mostrar no mapa de onde você veio?",
+        "ru": "Можете показать на карте, откуда вы пришли?",
+        "de": "Können Sie mir auf der Karte zeigen, woher Sie kommen?"
+      }
+    },
+    {
+      "id": "id-06",
+      "category": "identification",
+      "sourceText": "Do you have identification documents?",
+      "translations": {
+        "es": "¿Tiene documentos de identificación?",
+        "fr": "Avez-vous des documents d'identité ?",
+        "ar": "هل لديك وثائق هوية؟",
+        "zh": "你有身份证件吗？",
+        "hi": "क्या आपके पास पहचान पत्र है?",
+        "tr": "Kimlik belgeleriniz var mı?",
+        "ja": "身分証明書はお持ちですか？",
+        "pt": "Você tem documentos de identificação?",
+        "ru": "У вас есть документы, удостоверяющие личность?",
+        "de": "Haben Sie Ausweisdokumente?"
+      }
+    },
+    {
+      "id": "safety-08",
+      "category": "safety",
+      "sourceText": "I am a rescue worker. I am here to help you.",
+      "translations": {
+        "es": "Soy un trabajador de rescate. Estoy aquí para ayudarle.",
+        "fr": "Je suis un secouriste. Je suis ici pour vous aider.",
+        "ar": "أنا عامل إنقاذ. أنا هنا لمساعدتك.",
+        "zh": "我是救援人员。我来帮助你。",
+        "hi": "मैं बचाव कर्मी हूँ। मैं आपकी मदद के लिए यहाँ हूँ।",
+        "tr": "Ben bir kurtarma görevlisiyim. Size yardım etmek için buradayım.",
+        "ja": "私は救助隊員です。あなたを助けに来ました。",
+        "pt": "Sou um socorrista. Estou aqui para ajudá-lo.",
+        "ru": "Я спасатель. Я здесь, чтобы помочь вам.",
+        "de": "Ich bin ein Rettungshelfer. Ich bin hier, um Ihnen zu helfen."
+      }
+    }
+  ]
+}

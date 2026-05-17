@@ -1,0 +1,139 @@
+FIRSTVOICE — FINAL VIDEO SCRIPT (2:45)
+========================================
+
+PRE-RECORDING CHECKLIST:
+- Ollama running with gemma4:e4b loaded
+- Phone connected, adb reverse set up
+- App freshly installed, no old data
+- Second phone ready for mesh sync demo
+- Screen recording (scrcpy or built-in)
+- Quiet room
+- A disaster photo ready
+- Pre-warm model (run one inference before recording)
+
+
+[0:00–0:30] OPENING — Story + Problem (30s)
+--------------------------------------------
+
+VOICEOVER:
+
+"In the 2023 Turkey-Syria earthquake, 50,000 people died. Rescue teams from 90 countries arrived — speaking 40 different languages. But survivors trapped under rubble spoke Turkish, Arabic, Kurdish. No internet. No interpreters. Critical information — 'I'm diabetic,' 'my child is trapped,' 'there's a gas leak' — lost in translation.
+
+I'm Sovan, a developer from India — where disasters affect millions across 22 official languages every year. I built FirstVoice to solve this.
+
+FirstVoice is an Android app powered by Gemma 4 that enables real-time multilingual communication between responders and survivors — completely offline. Let me show you."
+
+SCREEN: Title card "FirstVoice — Offline Multilingual Crisis Communication | Powered by Gemma 4 E4B"
+
+
+[0:30–1:25] DEMO — Audio + Translation (55s)
+---------------------------------------------
+
+SCREEN: Phone → tap "New Encounter"
+
+VOICEOVER:
+
+"I start a new encounter. A survivor speaks Hindi."
+
+ACTION: Tap Survivor mic (button turns red) → speak Hindi: "मुझे पानी चाहिए, मेरा बच्चा बीमार है" → tap to stop
+
+SCREEN: "Transcribing with Gemma 4..." → Hindi text appears → English translation below
+
+VOICEOVER:
+
+"Watch — Gemma 4's native audio encoder transcribes the speech directly. No Google API. No internet. The 300-million parameter audio encoder inside Gemma 4 E4B does this natively — language detection and transcription in one call.
+
+What's special here: this is NOT a separate speech model plus a translation model. It's ONE model — Gemma 4 E4B — doing audio understanding, language detection, AND translation. That's the power of native multimodal architecture."
+
+ACTION: Tap speaker icon on translation → phone speaks Hindi aloud
+
+VOICEOVER:
+
+"The responder hears the English translation. Now they reply."
+
+ACTION: Tap Responder mic → speak English: "How many people are with you? Is anyone injured?" → tap to stop
+
+SCREEN: English transcribed → Hindi translation appears
+
+ACTION: Tap speaker icon → phone speaks Hindi
+
+VOICEOVER:
+
+"Translated to Hindi and spoken aloud for the survivor. Full bidirectional conversation. Zero internet."
+
+
+[1:25–1:55] DEMO — Vision + Triage Card (30s)
+----------------------------------------------
+
+ACTION: Tap camera → photograph disaster scene
+
+VOICEOVER:
+
+"Responders can photograph the scene. Gemma 4's vision encoder analyzes structural damage and hazards."
+
+SCREEN: "Analyzing with AI..." → assessment appears (severity ratings)
+
+ACTION: Tap "End Encounter" → confirm → "Generating triage card..."
+
+VOICEOVER:
+
+"When the encounter ends, Gemma 4 uses native function calling — the Ollama tools API — to generate a structured triage card. Urgency, people count, needs categories, GPS. Seven seconds. No manual data entry."
+
+SCREEN: Triage card appears — PAUSE 2-3 seconds so judges can read it
+(Show: HIGH urgency, 5 people, Medical + Extraction, Hindi, summary)
+
+
+[1:55–2:20] DEMO — Mesh Sync (25s)
+-----------------------------------
+
+SCREEN: Split view — TWO phones side by side (picture-in-picture)
+
+VOICEOVER:
+
+"Now the real differentiator. In a disaster zone, there's no server. But responders need shared situational awareness.
+
+FirstVoice uses Bluetooth Low Energy mesh networking. Devices discover each other automatically — no pairing, no internet. Triage cards sync in seconds."
+
+SCREEN: Phone 1 shows triage cards → Phone 2 discovers peer → same cards appear
+
+VOICEOVER:
+
+"An officer walking between disconnected zones becomes a data relay. Situational awareness builds without any infrastructure."
+
+
+[2:20–2:35] DEMO — Dashboard (15s)
+-----------------------------------
+
+ACTION: Open Dashboard screen
+
+VOICEOVER:
+
+"All triage cards — local and synced — on an offline map. Color-coded by urgency. Red is critical. Team leads see the full picture at a glance."
+
+SCREEN: Map with colored pins + timeline view
+
+
+[2:35–2:50] CLOSING — Future + Impact (15s)
+--------------------------------------------
+
+VOICEOVER:
+
+"What can be improved: inference speed gets faster with hardware optimization and smaller models like E2B. The app also works with cloud-hosted Ollama when internet IS available — giving flexibility from field to command center.
+
+One phone. One model. Nine point six gigabytes. Apache 2.0. No servers, no subscriptions. Any government, any NGO can deploy this freely.
+
+FirstVoice — when the tower falls, language shouldn't be a death sentence."
+
+SCREEN: Final card — "FirstVoice | Gemma 4 E4B | Apache 2.0 | github.com/[YOUR_REPO]"
+
+
+========================================
+TOTAL TIME: ~2:50
+
+EDITING NOTES:
+- Speed up all loading/wait times (10-18s → 3-4s in video)
+- Record voiceover separately, overlay on screen recording
+- Use scrcpy for clean phone recording: scrcpy --record demo.mp4
+- For mesh sync: record both phones separately, edit as split-screen
+- Add subtle background music (low, non-distracting)
+- Keep text overlays minimal and readable

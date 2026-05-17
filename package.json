@@ -1,0 +1,20 @@
+{
+  "name": "firstvoice",
+  "version": "1.0.0",
+  "description": "FirstVoice - Offline Multilingual Crisis Communication Agent for Disaster Zones",
+  "private": true,
+  "workspaces": [
+    "packages/core",
+    "packages/mobile"
+  ],
+  "scripts": {
+    "build:core": "npm run build --workspace=packages/core",
+    "test:core": "npm run test --workspace=packages/core",
+    "test": "npm run test:core"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firstvoice/firstvoice-crisis-agent"
+  }
+}

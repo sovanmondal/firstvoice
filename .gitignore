@@ -1,0 +1,54 @@
+# Android build artifacts
+android/build/
+android/app/build/
+android/.gradle/
+android/.idea/
+android/.kotlin/
+android/local.properties
+android/app/release/
+*.apk
+*.aab
+*.iml
+
+# Node
+node_modules/
+packages/*/node_modules/
+
+# IDE / Editor
+.idea/
+.vscode/
+*.code-workspace
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Logs / temp
+*.log
+*.tmp
+*.tar.gz
+*.zip
+*~
+
+# Internal/agent specs (not for public)
+.kiro/
+SESSION_NOTES.md
+
+# Recordings folder (videos, audio, transcripts — not needed in public repo)
+recordings/
+
+
+# Models
+*.bin
+*.gguf
+*.safetensors
+*.task
+*.tflite

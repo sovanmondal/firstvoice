@@ -1,0 +1,103 @@
+FIRSTVOICE — VOICEOVER CLIPS (Target: 2:30)
+=============================================
+Record each clip separately. Stick onto video during edit.
+
+
+CLIP 1 — Opening hook (12s)
+----------------------------
+"In the 2023 Turkey-Syria earthquake, 50,000 people died. Rescue teams from 90 countries arrived — speaking 40 different languages. But survivors trapped under rubble spoke Turkish, Arabic, Kurdish. No internet. No interpreters. Critical information lost in translation."
+
+
+CLIP 2 — Personal + Intro (12s)
+--------------------------------
+"I'm Sovan, a developer from India — where disasters affect millions across 22 official languages every year. I built FirstVoice — an Android app powered by Gemma 4 that enables real-time multilingual communication between responders and survivors. Completely offline. Let me show you how it works."
+
+
+CLIP 3 — Start encounter (5s)
+------------------------------
+"I start a new encounter. A survivor speaks Hindi."
+
+
+CLIP 4 — Audio encoder explanation (15s)
+-----------------------------------------
+"Watch — Gemma 4's native audio encoder transcribes the speech directly on device. No Google Speech API. No internet connection. The 300-million parameter audio encoder inside Gemma 4 E4B processes raw audio and outputs text with language detection — all in a single inference call. Each second of audio costs just 25 tokens."
+
+
+CLIP 5 — Why one model matters (12s)
+--------------------------------------
+"What makes this approach special: this is NOT a separate speech-to-text model chained with a translation model. It's ONE model — Gemma 4 E4B, nine point six gigabytes — doing audio understanding, language detection, AND translation natively. That's the power of Gemma 4's multimodal architecture."
+
+
+CLIP 6 — Translation result (5s)
+---------------------------------
+"Language detected: Hindi. Translated to English. The responder can read it instantly."
+
+
+CLIP 7 — TTS playback (7s)
+---------------------------
+"Tap the speaker icon — the phone speaks the translation aloud using offline text-to-speech. Both parties can hear any message in their own language."
+
+
+CLIP 8 — Responder replies (10s)
+---------------------------------
+"Now the responder replies in English. Gemma 4 transcribes, detects the language, translates to Hindi, and speaks it aloud for the survivor. Full bidirectional conversation — zero internet required."
+
+
+CLIP 9 — Photo analysis (10s)
+------------------------------
+"Responders can also photograph the scene. Gemma 4's native vision encoder analyzes the image — identifying structural damage severity, environmental hazards, and any visible injuries. All processed on device."
+
+
+CLIP 10 — Triage card (12s)
+----------------------------
+"When the encounter ends, Gemma 4 uses native function calling — the Ollama tools API — to generate a structured triage card. Urgency level, people count, needs categories, GPS coordinates, situation summary. Seven seconds. Zero manual data entry. This is agentic AI in action."
+
+
+CLIP 11 — Mesh sync intro (8s)
+-------------------------------
+"Now the real differentiator. In a disaster zone there's no server, no cloud. But responders need shared situational awareness across the team."
+
+
+CLIP 12 — Mesh sync demo (10s)
+-------------------------------
+"FirstVoice uses Bluetooth or Wifi-Direct Low Energy mesh networking. Devices discover each other automatically — no pairing dialogs, no internet. Triage cards sync between phones in seconds. An officer walking between disconnected zones becomes a data relay."
+
+
+CLIP 13 — Dashboard + Full Feature Walkthrough (15s)
+-----------------------------------------------------
+"All triage cards — local and synced from other devices — appear on an offline map with pre-cached tiles. Color-coded by urgency: red is critical, orange is high. There's a timeline view showing incidents chronologically. You can export all cards as JSON or CSV via the share sheet. There's a recycle bin with soft-delete that propagates across devices. And a voice walkie-talkie — tap to record audio clips that broadcast over the mesh to all nearby responders."
+
+
+CLIP 14 — Future improvements (10s)
+------------------------------------
+"What can be improved: inference speed will get faster as models optimize for mobile hardware. The app also supports cloud-hosted Ollama when internet IS available — giving deployment flexibility from field operations to command centers."
+
+
+CLIP 15 — Closing impact (15s)
+-------------------------------
+"One phone. One model. Nine point six gigabytes. Apache 2.0 license. No servers. No subscriptions. No vendor lock-in. Any government, any NGO, any military can deploy this freely. FirstVoice doesn't just translate words — it saves the information that saves lives."
+
+
+=============================================
+TOTAL: ~150 seconds (~2:30)
+
+TIMELINE MAP:
+  0:00-0:24  → Clips 1, 2 (opening)
+  0:24-0:29  → Clip 3 (start encounter)
+  0:29-0:56  → Clips 4, 5 (audio encoder + why special)
+  0:56-1:01  → Clip 6 (result)
+  1:01-1:08  → Clip 7 (TTS)
+  1:08-1:18  → Clip 8 (responder)
+  1:18-1:28  → Clip 9 (photo)
+  1:28-1:40  → Clip 10 (triage)
+  1:40-1:48  → Clip 11 (mesh intro)
+  1:48-1:58  → Clip 12 (mesh demo)
+  1:58-2:05  → Clip 13 (dashboard)
+  2:05-2:15  → Clip 14 (future)
+  2:15-2:30  → Clip 15 (closing)
+
+RECORDING TIPS:
+- Quiet room, speak clearly and with confidence
+- Slightly slower than normal conversation speed
+- Pause 2-3 seconds between clips for easy splitting
+- Or record each as separate file: clip01.m4a through clip15.m4a

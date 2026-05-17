@@ -1,0 +1,127 @@
+VIDEO RECORDING GUIDE — What to show for each audio clip
+==========================================================
+
+STEP 1: Record all voiceover clips first (audio only)
+STEP 2: Record screen video silently (following actions below)
+STEP 3: In editor, place audio clips on timeline matching the actions
+
+
+SETUP BEFORE RECORDING:
+- Start Ollama: OLLAMA_HOST=0.0.0.0 ollama serve
+- Connect phone: adb reverse tcp:11434 tcp:11434
+- Open scrcpy: scrcpy --record firstvoice-demo.mp4
+- Pre-warm model: open app, do one quick test, then clear data
+- App should be fresh (no old encounters)
+
+
+VIDEO ACTIONS (record silently, match to audio clips later):
+=============================================================
+
+CLIP 1+2 (0:00-0:24) — Opening
+ACTION: Show phone home screen with FirstVoice app open.
+        Show "Ollama Connected" status on home screen.
+        Maybe briefly show the feature icons on home screen.
+
+
+CLIP 3 (0:24-0:29) — Start encounter
+ACTION: Tap "New Encounter" button.
+        Encounter screen opens with empty chat area.
+
+
+CLIP 4+5 (0:29-0:56) — Audio encoder
+ACTION: Tap SURVIVOR mic button (turns red, shows "Recording...")
+        Speak Hindi into the phone: "मुझे पानी चाहिए, मेरा बच्चा बीमार है"
+        Tap button again to stop (turns back to normal)
+        Show loading: "Transcribing with Gemma 4..."
+        Wait for result to appear (SPEED THIS UP IN EDIT to 3-4s)
+        Hindi text appears in survivor bubble
+        English translation appears below it
+
+
+CLIP 6 (0:56-1:01) — Result
+ACTION: Camera stays on the chat bubble showing:
+        - Hindi original text
+        - "Language: Hindi" 
+        - English translation below
+
+
+CLIP 7 (1:01-1:08) — TTS
+ACTION: Tap the 🔊 speaker icon on the translated text
+        Phone speaks aloud (you'll hear it in screen recording)
+        Then tap the 👂 ear icon to show that works too
+
+
+CLIP 8 (1:08-1:18) — Responder replies
+ACTION: Tap RESPONDER mic button (turns red)
+        Speak English: "How many people are with you? Is anyone injured?"
+        Tap to stop
+        Show loading "Transcribing with Gemma 4..."
+        (SPEED UP IN EDIT)
+        English text appears in responder bubble
+        Hindi translation appears
+        Tap 🔊 speaker icon — phone speaks Hindi
+
+
+CLIP 9 (1:18-1:28) — Photo
+ACTION: Tap Camera button
+        Take a photo (of a disaster image on another screen, or printed photo)
+        Show loading "Analyzing photo with AI..."
+        (SPEED UP IN EDIT)
+        Assessment appears in chat: severity, hazards, summary
+
+
+CLIP 10 (1:28-1:40) — Triage card
+ACTION: Tap "End Encounter" (checkmark button)
+        Confirm dialog appears → tap "End & Generate Triage Card"
+        Show loading "Generating triage card..."
+        (SPEED UP IN EDIT)
+        Toast shows urgency level
+        Navigate to Triage Cards screen
+        Show the generated card — PAUSE 3 SECONDS on it
+        (Let judges read: urgency, people count, needs, summary)
+
+
+CLIP 11+12 (1:40-1:58) — Mesh sync
+ACTION: [SWITCH TO SPLIT SCREEN — two phones]
+        Phone 1: Shows triage cards list with the card we just made
+        Phone 2: Open FirstVoice, go to Mesh Sync screen
+        Show: peer discovered, sync in progress
+        Phone 2: Navigate to Triage Cards — same card appears!
+        (If you can't do split screen live, record Phone 2 separately
+         and edit as picture-in-picture)
+
+
+CLIP 13 (1:58-2:13) — Dashboard + features
+ACTION: Open Dashboard screen — show map with pins
+        Tap a pin to show card details
+        Switch to timeline view
+        Go back to Triage Cards screen
+        Show export button (share sheet with JSON/CSV)
+        Show recycle bin icon + badge
+        Quick flash of Field Radio / Walkie-Talkie screen
+
+
+CLIP 14 (2:13-2:23) — Future
+ACTION: Show Settings screen briefly (Ollama URL configurable)
+        Or just stay on home screen while voiceover plays
+
+
+CLIP 15 (2:23-2:38) — Closing
+ACTION: Show home screen with all features visible
+        Or show a final title card:
+        "FirstVoice | Gemma 4 E4B | Apache 2.0"
+        "github.com/[YOUR_REPO]"
+
+
+=============================================================
+EDITING CHECKLIST:
+
+1. Import screen recording into CapCut/iMovie
+2. Speed up ALL loading/wait sections (10-18s → 3-4s)
+   - Use 4x or 8x speed with a subtle fast-forward indicator
+3. Place audio clips on timeline matching the actions above
+4. Add text overlay at start: "FirstVoice — Powered by Gemma 4 E4B"
+5. Add text overlay at end: GitHub URL
+6. Optional: subtle background music (very low volume)
+7. Export at 1080p
+8. Upload to YouTube as "Unlisted" first, then make Public when submitting

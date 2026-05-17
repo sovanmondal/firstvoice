@@ -1,0 +1,13 @@
+{
+  "id": "default-global",
+  "name": "Global Default",
+  "languagePins": ["en", "es", "ar", "fr", "zh", "hi"],
+  "mapBoundingBox": {
+    "north": 85,
+    "south": -85,
+    "east": 180,
+    "west": -180
+  },
+  "teamIdentifier": "firstvoice-default",
+  "customQuickPhrases": []
+}
